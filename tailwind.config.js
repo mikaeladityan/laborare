@@ -5,6 +5,9 @@ export default {
         "./resources/views/**/*.blade.php",
     ],
     theme: {
+        fontFamily: {
+            poppins: ["Poppins", "sans-serif"],
+        },
         extend: {},
     },
     plugins: [],
