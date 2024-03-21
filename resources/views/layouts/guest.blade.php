@@ -16,18 +16,16 @@
         rel="stylesheet">
     {{-- Icon --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
 
-    <title>{{ $title . ' | ' . config('app.name') }}</title>
+    {{-- jquery --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <title>{{ $title != null ? $title . ' | ' . config('app.name') : config('app.name') }}</title>
 </head>
 
-<body class="h-full bg-zinc-950 font-poppins text-slate-200">
-    <header>
-        <x-navbar />
-    </header>
-
-    <main>
-        {{ $slot }}
-    </main>
+<body class="relative h-full bg-zinc-950 font-poppins text-slate-200">
+    {{ $slot }}
 </body>
 
 </html>
