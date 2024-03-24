@@ -7,7 +7,9 @@
         {{-- Header --}}
         <div class="px-5 mt-5">
             {{-- card --}}
-            <x-card class="h-28"></x-card>
+            <a href="">
+                <x-card class="h-28"></x-card>
+            </a>
         </div>
     </header>
 @endif

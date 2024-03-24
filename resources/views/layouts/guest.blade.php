@@ -4,9 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{-- <link rel="manifest" href="manifest.json"> --}}
+    {{-- <link rel="manifest" href="asset('build/manifest.json')"> --}}
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     {{-- Tailwind --}}
+    {{-- <link rel="stylesheet" href="{{ asset('build/assets/app-BzrsHoCQ.css') }}">
+    <script src="{{ asset('build/assets/app-D2jpX1vH.js') }}"></script> --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     {{-- Google Fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">

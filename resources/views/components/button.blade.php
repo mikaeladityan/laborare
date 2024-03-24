@@ -12,7 +12,7 @@
         'border-light' => 'border-2 border-zinc-400 text-zinc-400',
     ];
     $variantClass = [
-        'default' => 'px-3 py-1.5 text-xs font-medium uppercase rounded-lg w-full',
+        'default' => 'px-3 py-1.5 text-xs font-medium uppercase rounded-lg',
         'icon' => 'text-center text-zinc-400',
     ];
 

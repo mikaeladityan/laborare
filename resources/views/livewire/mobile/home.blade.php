@@ -6,7 +6,7 @@
 
     <main class="pb-16">
         {{-- Slider Categories --}}
-        <div class="relative py-5 owl-carousel owl-theme">
+        <div class="relative py-5 owl-carousel owl-theme" id="categories">
             <div class="relative w-full item">
                 <x-card>
                     {{-- card content --}}
@@ -189,7 +189,7 @@
                 </a>
             </div>
             <div class="grid grid-cols-2 gap-2 mt-4 mb-5">
-                <x-card class="p-0 rounded-none text-zinc-300">
+                <x-card class="p-0.5 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
@@ -201,7 +201,7 @@
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-0 rounded-none text-zinc-300">
+                <x-card class="p-0.5 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
@@ -213,7 +213,7 @@
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-0 rounded-none text-zinc-300">
+                <x-card class="p-0.5 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
@@ -225,7 +225,7 @@
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-0 rounded-none text-zinc-300">
+                <x-card class="p-0.5 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
@@ -237,7 +237,7 @@
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-0 rounded-none text-zinc-300">
+                <x-card class="p-0.5 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
@@ -249,7 +249,7 @@
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-0 rounded-none text-zinc-300">
+                <x-card class="p-0.5 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
