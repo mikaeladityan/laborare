@@ -24,7 +24,7 @@
     <title>{{ $title != null ? $title . ' | ' . config('app.name') : config('app.name') }}</title>
 </head>
 
-<body class="relative h-full bg-zinc-950 font-poppins text-slate-200">
+<body class="relative bg-zinc-950 font-poppins text-slate-200">
     {{ $slot }}
 </body>
 

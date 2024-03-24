@@ -11,9 +11,9 @@
             responsive: {
                 0: {
                     items: 2,
-                    autoplay: true,
-                    autoplayTimeout: 2000,
-                    autoplayHoverPause: true,
+                    // autoplay: true,
+                    // autoplayTimeout: 2000,
+                    // autoplayHoverPause: true,
                 },
             }
         })

@@ -8,22 +8,19 @@
             </a>
             {{-- Button redirect to login page --}}
             @if (request()->routeIs('register'))
-                <x-button wire:navigate as='link' color="blue"
+                <x-button wire:navigate as='link' color="blue" class="w-2/12 text-center"
                     href="{{ route('login') }}">{!! 'Masuk' !!}</x-button>
             @else
-                <x-button wire:navigate as='link' color="blue"
+                <x-button wire:navigate as='link' color="blue" class="w-2/12 text-center"
                     href="{{ route('register') }}">{!! 'Daftar' !!}</x-button>
             @endif
         </div>
     </nav>
 @else
     <nav class="p-3">
-        <div
-            class="flex items-center justify-between px-4 py-5 shadow-lg bg-zinc-900/70 shadow-slate-500/10 rounded-xl">
-            {{-- Brand --}}
-            <a href="{{ route('home') }}">
-                <h1 class="text-sm font-medium text-slate-200">{{ config('app.name') }}</h1>
-            </a>
+        <div class="flex items-center justify-between px-4 py-5 shadow-lg bg-zinc-900/70 shadow-zinc-500/10 rounded-xl">
+            {{-- User Name --}}
+            <p class="text-sm font-medium text-zinc-300">Hi, Selamat datang</p>
             <div>
                 <x-button as='link' color="blue" :href="route('login')">Masuk</x-button>
             </div>
