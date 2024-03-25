@@ -270,24 +270,7 @@
     </main>
 
     {{-- Navbar footer --}}
-    <x-mobile.navbar.footer>
-        <x-button variant='icon' as="link" href="{{ route('home') }}">
-            <x-icon></x-icon>
-        </x-button>
-        <x-button variant='icon' as="link" href="{{ route('home') }}">
-            <x-icon icon="ti ti-shopping-bag-search"></x-icon>
-        </x-button>
-        <x-button variant='icon' as="link" href="{{ route('home') }}">
-            <x-icon icon="ti ti-tools"></x-icon>
-        </x-button>
-        <x-button variant='icon' as="link" href="{{ route('home') }}">
-            <x-icon icon="ti ti-help-hexagon"></x-icon>
-        </x-button>
-        <x-button variant='icon' as="link" href="{{ route('home') }}">
-            <x-icon icon="ti ti-login-2"></x-icon>
-        </x-button>
-
-    </x-mobile.navbar.footer>
+    <x-mobile.navbar.footer />
 
     @include('layouts.mobile-script')
 </div>

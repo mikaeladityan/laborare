@@ -5,7 +5,7 @@
             loop: false,
             center: true,
             lazyLoad: true,
-            margin: 18,
+            margin: 10,
             nav: false,
             dots: false,
             responsive: {

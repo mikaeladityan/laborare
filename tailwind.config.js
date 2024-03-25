@@ -3,6 +3,7 @@ export default {
     content: [
         "./resources/views/*.blade.php",
         "./resources/views/**/*.blade.php",
+        "./resources/views/***/**/*.blade.php",
     ],
     theme: {
         fontFamily: {
