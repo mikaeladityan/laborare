@@ -183,13 +183,13 @@
         <section class="px-2 pt-5 pb-2 bg-zinc-900/50">
             <div class="flex items-center justify-between">
                 <h3 class="w-full font-semibold tracking-wide uppercase text-zinc-200">Template Website UMKM</h3>
-                <a href="" class="flex items-center justify-end w-2/12 p-0 text-xs text-zinc-500">
+                <a href="{{ route('umkm') }}" class="flex items-center justify-end w-2/12 p-0 text-xs text-zinc-500">
                     <p>Selengkapnya</p>
                     <i class="text-lg ti ti-chevron-right"></i>
                 </a>
             </div>
             <div class="grid grid-cols-2 gap-2 mt-4 mb-5">
-                <x-card class="p-0.5 rounded-none text-zinc-300">
+                <x-card class="p-1 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
@@ -201,7 +201,7 @@
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-0.5 rounded-none text-zinc-300">
+                <x-card class="p-1 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
@@ -213,7 +213,7 @@
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-0.5 rounded-none text-zinc-300">
+                <x-card class="p-1 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
@@ -225,7 +225,7 @@
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-0.5 rounded-none text-zinc-300">
+                <x-card class="p-1 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
@@ -237,7 +237,7 @@
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-0.5 rounded-none text-zinc-300">
+                <x-card class="p-1 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
@@ -249,7 +249,7 @@
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-0.5 rounded-none text-zinc-300">
+                <x-card class="p-1 rounded-none text-zinc-300">
 
                     <a href="#">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />

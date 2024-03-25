@@ -4,6 +4,7 @@ namespace App\Livewire;
 
 use App\IsMobile;
 use Livewire\Attributes\Layout;
+use Livewire\Attributes\Lazy;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 

@@ -17,10 +17,17 @@
         </div>
     </nav>
 @else
-    <nav class="p-3">
-        <div class="flex items-center justify-between px-4 py-5 shadow-lg bg-zinc-900/70 shadow-zinc-500/10 rounded-xl">
+    <nav class="{{ request()->routeIs('show-template') ? 'absolute top-0 left-0 w-full' : 'relative' }} z-20 p-3">
+        <div
+            class="flex items-center justify-between px-4 py-5 shadow-lg backdrop-blur-sm bg-zinc-900/50 shadow-zinc-500/10 rounded-xl">
             {{-- User Name --}}
-            <p class="text-sm font-medium text-zinc-300">Hi, Selamat datang</p>
+            @if (request()->routeIs('show-template'))
+                <a href="{{ route('umkm') }}" class="w-10/12 text-zinc-200">
+                    <i class="text-2xl ti ti-arrow-back"></i>
+                </a>
+            @else
+                <p class="text-sm font-medium text-zinc-300">Hi, Selamat datang</p>
+            @endif
             <div>
                 <x-button as='link' color="blue" :href="route('login')">Masuk</x-button>
             </div>

@@ -8,18 +8,18 @@ use Livewire\Attributes\Lazy;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-#[Title(null)]
 #[Layout('layouts.guest')]
+#[Title('Template Website UMKM')]
 #[Lazy(true)]
-class WebApplication extends Component
+class Umkm extends Component
 {
     public function render(IsMobile $isMobile)
     {
         sleep(2);
         if ($isMobile->is_mobile === true) {
-            return view('livewire.mobile.web-application');
+            return view('livewire.mobile.umkm');
         } else {
-            return view('livewire.web-application');
+            return view('livewire.umkm');
         }
     }
 }

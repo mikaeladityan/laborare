@@ -4,22 +4,19 @@ namespace App\Livewire;
 
 use App\IsMobile;
 use Livewire\Attributes\Layout;
-use Livewire\Attributes\Lazy;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
 #[Title(null)]
 #[Layout('layouts.guest')]
-#[Lazy(true)]
-class WebApplication extends Component
+class ShowTemplate extends Component
 {
     public function render(IsMobile $isMobile)
     {
-        sleep(2);
         if ($isMobile->is_mobile === true) {
-            return view('livewire.mobile.web-application');
+            return view('livewire.mobile.show-template');
         } else {
-            return view('livewire.web-application');
+            return view('livewire.show-template');
         }
     }
 }
