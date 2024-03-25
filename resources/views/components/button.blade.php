@@ -7,12 +7,16 @@
 
 @php
     $colorClass = [
-        'transparent' => 'bg-transparent',
-        'blue' => 'bg-blue-800 shadow-md text-slate-300 shadow-blue-700/60',
+        'transparent' => 'bg-transparent text-zinc-400',
+        'blue' => 'bg-blue-800 shadow-md text-blue-300 shadow-blue-700/60',
+        'border-light' => 'border-2 border-zinc-400 text-zinc-400',
+        'blur' => 'bg-zinc-900/40 backdrop-blur-sm text-zinc-300',
     ];
     $variantClass = [
-        'default' => 'px-3 py-2 text-xs font-medium uppercase rounded-lg',
-        'icon' => 'text-center text-slate-300',
+        'default' => 'px-3 py-1.5 text-xs font-medium uppercase rounded-lg',
+        'icon' => 'text-center',
+        'category' => 'flex items-center justify-center w-full h-16 rounded-xl bg-zinc-900/50',
+        'card' => 'flex items-center justify-center w-full h-12 w-12 rounded-xl',
     ];
 
     $class = $variantClass[value($variant)] . ' ' . $colorClass[value($color)];

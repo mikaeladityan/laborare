@@ -10,14 +10,16 @@ use Livewire\Component;
 
 #[Title(null)]
 #[Layout('layouts.guest')]
-class Home extends Component
+#[Lazy(true)]
+class WebApplication extends Component
 {
     public function render(IsMobile $isMobile)
     {
+        sleep(2);
         if ($isMobile->is_mobile === true) {
-            return view('livewire.mobile.home');
+            return view('livewire.mobile.web-application');
         } else {
-            return view('livewire.home');
+            return view('livewire.web-application');
         }
     }
 }

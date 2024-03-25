@@ -1,22 +1,22 @@
 <?php
 
-namespace App\Livewire\Auth;
+namespace App\Livewire;
 
 use App\IsMobile;
 use Livewire\Attributes\Layout;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 
-#[Layout('layouts.guest')]
 #[Title(null)]
-class Register extends Component
+#[Layout('layouts.guest')]
+class ShowTemplate extends Component
 {
     public function render(IsMobile $isMobile)
     {
         if ($isMobile->is_mobile === true) {
-            return view('livewire.auth.mobile.register');
+            return view('livewire.mobile.show-template');
         } else {
-            return view('livewire.auth.register');
+            return view('livewire.show-template');
         }
     }
 }
