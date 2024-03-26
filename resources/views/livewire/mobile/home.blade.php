@@ -189,73 +189,73 @@
                 </a>
             </div>
             <div class="grid grid-cols-2 gap-2 mt-4 mb-5">
-                <x-card class="p-1 rounded-none text-zinc-300">
+                <x-card padding="none" class="text-zinc-300">
 
-                    <a href="#">
+                    <a href="{{ route('show-template') }}">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
                     </a>
                     <div class="px-3 py-2">
-                        <a href="#">
+                        <a href="{{ route('show-template') }}">
                             <h5 class="text-[11px] tracking-wide text-zinc-300 font-medium">Noteworthy
                                 technology acquisitions 2021</h5>
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-1 rounded-none text-zinc-300">
+                <x-card padding="none" class="text-zinc-300">
 
-                    <a href="#">
+                    <a href="{{ route('show-template') }}">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
                     </a>
                     <div class="px-3 py-2">
-                        <a href="#">
+                        <a href="{{ route('show-template') }}">
                             <h5 class="text-[11px] tracking-wide text-zinc-300 font-medium">Noteworthy
                                 technology acquisitions 2021</h5>
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-1 rounded-none text-zinc-300">
+                <x-card padding="none" class="text-zinc-300">
 
-                    <a href="#">
+                    <a href="{{ route('show-template') }}">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
                     </a>
                     <div class="px-3 py-2">
-                        <a href="#">
+                        <a href="{{ route('show-template') }}">
                             <h5 class="text-[11px] tracking-wide text-zinc-300 font-medium">Noteworthy
                                 technology acquisitions 2021</h5>
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-1 rounded-none text-zinc-300">
+                <x-card padding="none" class="text-zinc-300">
 
-                    <a href="#">
+                    <a href="{{ route('show-template') }}">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
                     </a>
                     <div class="px-3 py-2">
-                        <a href="#">
+                        <a href="{{ route('show-template') }}">
                             <h5 class="text-[11px] tracking-wide text-zinc-300 font-medium">Noteworthy
                                 technology acquisitions 2021</h5>
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-1 rounded-none text-zinc-300">
+                <x-card padding="none" class="text-zinc-300">
 
-                    <a href="#">
+                    <a href="{{ route('show-template') }}">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
                     </a>
                     <div class="px-3 py-2">
-                        <a href="#">
+                        <a href="{{ route('show-template') }}">
                             <h5 class="text-[11px] tracking-wide text-zinc-300 font-medium">Noteworthy
                                 technology acquisitions 2021</h5>
                         </a>
                     </div>
                 </x-card>
-                <x-card class="p-1 rounded-none text-zinc-300">
+                <x-card padding="none" class="text-zinc-300">
 
-                    <a href="#">
+                    <a href="{{ route('show-template') }}">
                         <img class="w-full" src="https://picsum.photos/200/170" alt="" />
                     </a>
                     <div class="px-3 py-2">
-                        <a href="#">
+                        <a href="{{ route('show-template') }}">
                             <h5 class="text-[11px] tracking-wide text-zinc-300 font-medium">Noteworthy
                                 technology acquisitions 2021</h5>
                         </a>
