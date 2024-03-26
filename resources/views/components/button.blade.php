@@ -16,7 +16,7 @@
         'default' => 'px-3 py-1.5 text-xs font-medium uppercase rounded-lg',
         'icon' => 'text-center',
         'category' => 'flex items-center justify-center w-full h-16 rounded-xl bg-zinc-900/50',
-        'card' => 'flex items-center justify-center w-full h-12 w-12 rounded-xl',
+        'card' => 'flex items-center justify-center w-full h-14 w-14 rounded-xl',
     ];
 
     $class = $variantClass[value($variant)] . ' ' . $colorClass[value($color)];
